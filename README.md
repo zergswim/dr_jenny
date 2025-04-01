@@ -2,13 +2,13 @@
 
 ## Dr. Jenny: VoiceToVoice Agent
 
-This project outlines the design for Dr. Jenny, a Web3-based AI Voice-to-Voice Agent.
+이 프로젝트는 Web3 기반 AI 음성-음성 에이전트인 Dr. Jenny의 설계를 개요합니다.
 
 ---
 
-### Core Interaction Flow
+### 핵심 상호작용 흐름
 
-The primary interaction involves a voice conversation between the user and the Dr. Jenny agent.
+주요 상호작용은 사용자와 Dr. Jenny 에이전트 간의 음성 대화입니다.
 
 <div style="display: flex; align-items: center; justify-content: center; gap: 10px; margin: 20px 0; flex-wrap: wrap;">
   <!-- User Box -->
@@ -16,22 +16,14 @@ The primary interaction involves a voice conversation between the user and the D
     <strong>User</strong><br>Voice
   </div>
 
-  <!-- SVG Arrow -->
-  <svg width="100" height="50" viewbox="0 0 100 50" aria-label="Bidirectional arrow">
-     <defs>
-        <marker id="arrowhead-start" markerWidth="10" markerHeight="7" refX="0" refY="3.5" orient="auto">
-          <polygon points="10 0, 10 7, 0 3.5" fill="#555" />
-        </marker>
-        <marker id="arrowhead-end" markerWidth="10" markerHeight="7" refX="10" refY="3.5" orient="auto">
-          <polygon points="0 0, 10 3.5, 0 7" fill="#555" />
-        </marker>
-      </defs>
-      <line x1="10" y1="25" x2="90" y2="25" stroke="#555" stroke-width="2" marker-start="url(#arrowhead-start)" marker-end="url(#arrowhead-end)" />
-  </svg>
+  <!-- Unicode Arrow (Replaces SVG) -->
+  <div style="font-size: 2.5em; color: #555; padding: 0 15px; line-height: 1;" aria-label="Bidirectional interaction">
+    ↔
+  </div>
 
   <!-- Agent Box -->
   <div style="border: 1px solid #ccc; padding: 20px; text-align: center; background-color: #f8f8f8; border-radius: 5px; min-width: 120px; position: relative;">
-    <!-- Placeholder for Agent Visual - Could use an SVG icon or emoji -->
+    <!-- Placeholder for Agent Visual -->
     <div style="font-size: 2em; margin-bottom: 5px;" aria-label="AI Agent Icon">👩‍⚕️</div>
     <strong>Agent</strong><br>Voice<br>(Dr. Jenny)
   </div>
@@ -39,9 +31,9 @@ The primary interaction involves a voice conversation between the user and the D
 
 ---
 
-### Supporting Components & Capabilities
+### 지원 구성 요소 및 기능
 
-Dr. Jenny leverages several key components and areas of knowledge:
+Dr. Jenny는 다음과 같은 주요 구성 요소와 지식 영역을 활용합니다:
 
 <div style="display: flex; justify-content: center; gap: 20px; flex-wrap: wrap; margin-top: 20px;">
 
